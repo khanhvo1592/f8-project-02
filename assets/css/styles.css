@@ -1,3 +1,57 @@
 * {
     box-sizing: border-box;
 }
+:root {
+    --primary-color: #ffb900;
+    --font-heading: Sen, sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-style: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+/* Common */
+a {
+    text-decoration: none;
+}
+.main-content {
+    width: 1440px;
+    margin: auto;
+}
+
+.header {
+    background: #fffcf4;
+}
+.header .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    color: #5f5b53;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    flex-direction: row;
+}
+.navbar .nav-item {
+    display: inline-block;
+    color: #5f5b53;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.button {
+    border-radius: 24.5px;
+    background: #171100;
+    color: #fff;
+}
+.btn:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
